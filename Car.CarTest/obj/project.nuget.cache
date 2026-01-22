@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "88W9/NZiZ2A=",
+  "dgSpecHash": "/NBLrHztT6Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.CarTest\\Car.CarTest.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.12\\microsoft.entityframeworkcore.9.0.12.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.12\\microsoft.entityframeworkcore.abstractions.9.0.12.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.12\\microsoft.entityframeworkcore.analyzers.9.0.12.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\9.0.12\\microsoft.entityframeworkcore.inmemory.9.0.12.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.12\\microsoft.entityframeworkcore.relational.9.0.12.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.12\\microsoft.entityframeworkcore.sqlserver.9.0.12.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.12\\microsoft.extensions.caching.abstractions.9.0.12.nupkg.sha512",
