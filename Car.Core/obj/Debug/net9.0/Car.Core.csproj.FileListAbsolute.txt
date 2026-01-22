@@ -1,0 +1,12 @@
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\bin\Debug\net9.0\Car.Core.deps.json
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\bin\Debug\net9.0\Car.Core.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\bin\Debug\net9.0\Car.Core.pdb
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\Car.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\Car.Core.AssemblyInfoInputs.cache
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\Car.Core.AssemblyInfo.cs
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\Car.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\Car.Core.sourcelink.json
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\Car.Core.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\refint\Car.Core.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\Car.Core.pdb
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Core\obj\Debug\net9.0\ref\Car.Core.dll

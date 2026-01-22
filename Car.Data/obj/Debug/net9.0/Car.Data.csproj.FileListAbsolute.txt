@@ -1,0 +1,16 @@
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\bin\Debug\net9.0\Car.Data.deps.json
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\bin\Debug\net9.0\Car.Data.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\bin\Debug\net9.0\Car.Data.pdb
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\bin\Debug\net9.0\Car.Core.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\bin\Debug\net9.0\Car.Core.pdb
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.csproj.AssemblyReference.cache
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.AssemblyInfoInputs.cache
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.AssemblyInfo.cs
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.sourcelink.json
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.csproj.Up2Date
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\refint\Car.Data.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.pdb
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\ref\Car.Data.dll

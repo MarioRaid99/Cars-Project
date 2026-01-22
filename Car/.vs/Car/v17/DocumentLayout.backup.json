@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D11059B-F2A3-43A8-9DBB-3A5E860E324D}|..\\Car.Core\\Car.Core.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.core\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D11059B-F2A3-43A8-9DBB-3A5E860E324D}|..\\Car.Core\\Car.Core.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.core\\domain\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D11059B-F2A3-43A8-9DBB-3A5E860E324D}|..\\Car.Core\\Car.Core.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.core\\domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Interfaces\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "..\\Car.Core\\Interfaces\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Interfaces\\ICarRepository.cs",
+              "RelativeToolTip": "..\\Car.Core\\Interfaces\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:54:08.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Domain\\Car.cs",
+              "RelativeDocumentMoniker": "..\\Car.Core\\Domain\\Car.cs",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Domain\\Car.cs",
+              "RelativeToolTip": "..\\Car.Core\\Domain\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:49:38.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Domain\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\Car.Core\\Domain\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Domain\\BaseEntity.cs",
+              "RelativeToolTip": "..\\Car.Core\\Domain\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:48:49.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
