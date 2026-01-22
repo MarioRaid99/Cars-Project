@@ -3,10 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89D4E06F-4CF6-4BFC-AA7A-EC2048589B7F}|..\\Car.ApplicationServices\\Car.ApplicationServices.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.applicationservices\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89D4E06F-4CF6-4BFC-AA7A-EC2048589B7F}|..\\Car.ApplicationServices\\Car.ApplicationServices.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.applicationservices\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D4E06F-4CF6-4BFC-AA7A-EC2048589B7F}|..\\Car.ApplicationServices\\Car.ApplicationServices.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.applicationservices\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,15 +24,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:32:00.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-22T17:31:45.603Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.ApplicationServices\\Services\\Class1.cs",
               "RelativeDocumentMoniker": "..\\Car.ApplicationServices\\Services\\Class1.cs",
@@ -37,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ICarService.cs",
               "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.ApplicationServices\\Interfaces\\ICarService.cs",
               "RelativeDocumentMoniker": "..\\Car.ApplicationServices\\Interfaces\\ICarService.cs",
