@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|solutionrelative:views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|solutionrelative:views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cars\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cars\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T18:19:24.858Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Details.cshtml",
+              "RelativeToolTip": "Views\\Cars\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T18:52:34.027Z",
+              "EditorCaption": ""
             }
           ]
         }

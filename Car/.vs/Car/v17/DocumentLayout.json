@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|solutionrelative:views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF07FBE6-8FF6-4F94-89BA-B5CFA161641E}|Car.csproj|solutionrelative:views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cars\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cars\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\Views\\Cars\\Details.cshtml",
+              "RelativeToolTip": "Views\\Cars\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T18:19:24.858Z",
+              "WhenOpened": "2026-01-22T18:52:34.027Z",
               "EditorCaption": ""
             }
           ]

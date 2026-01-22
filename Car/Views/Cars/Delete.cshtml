@@ -1,0 +1,49 @@
+﻿@model Car.ApplicationServices.Dtos.CarDto
+
+<div class="garage-hero mb-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-3">
+        <div>
+            <h1>Delete Car</h1>
+            <p>This action cannot be undone.</p>
+        </div>
+        <div class="d-flex gap-2">
+            <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-garage">Back to Details</a>
+            <a asp-action="Index" class="btn btn-garage">Back</a>
+        </div>
+    </div>
+</div>
+
+<div class="garage-surface p-4">
+    <div class="garage-card" style="border-color: rgba(251,113,133,.35);">
+        <h5 class="garage-title">Confirm deletion</h5>
+        <p class="garage-subtitle">You are about to delete this vehicle:</p>
+
+        <div class="garage-badges">
+            <span class="garage-badge accent">@Model.Year</span>
+            <span class="garage-badge ok">@Model.FuelType</span>
+            <span class="garage-badge">@Model.Transmission</span>
+        </div>
+
+        <div class="garage-metric">
+            <div class="text-white-50">Vehicle</div>
+            <div class="garage-price">@Model.Make @Model.Model</div>
+        </div>
+
+        <div class="garage-metric">
+            <div class="text-white-50">Price</div>
+            <div class="garage-price">@Model.Price.ToString("0")</div>
+        </div>
+
+        <form asp-action="DeleteConfirmed" method="post" class="mt-3">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="id" value="@Model.Id" />
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-garage" style="border-color: rgba(251,113,133,.55);">
+                    Yes, delete
+                </button>
+                <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-garage">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

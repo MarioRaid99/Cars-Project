@@ -1,0 +1,94 @@
+﻿@model Car.ApplicationServices.Dtos.CarUpdateDto
+
+<div class="garage-hero mb-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-3">
+        <div>
+            <h1>Edit Car</h1>
+            <p>Update vehicle data. ModifiedAt will be updated automatically.</p>
+        </div>
+        <div class="d-flex gap-2">
+            <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-garage">Details</a>
+            <a asp-action="Index" class="btn btn-garage">Back</a>
+        </div>
+    </div>
+</div>
+
+<div class="garage-surface p-4">
+    <form asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <div class="row g-3">
+            <div class="col-12">
+                <div class="garage-card">
+                    <h5 class="garage-title">Basic</h5>
+                    <p class="garage-subtitle">Manufacturer and model</p>
+
+                    <div asp-validation-summary="ModelOnly" class="text-warning mb-2"></div>
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label class="form-label text-white-50">Make</label>
+                            <input asp-for="Make" class="form-control garage-input" />
+                            <span asp-validation-for="Make" class="text-warning"></span>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="form-label text-white-50">Model</label>
+                            <input asp-for="Model" class="form-control garage-input" />
+                            <span asp-validation-for="Model" class="text-warning"></span>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <label class="form-label text-white-50">Year</label>
+                            <input asp-for="Year" type="number" class="form-control garage-input" />
+                            <span asp-validation-for="Year" class="text-warning"></span>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <label class="form-label text-white-50">Fuel Type</label>
+                            <input asp-for="FuelType" class="form-control garage-input" />
+                            <span asp-validation-for="FuelType" class="text-warning"></span>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <label class="form-label text-white-50">Transmission</label>
+                            <input asp-for="Transmission" class="form-control garage-input" />
+                            <span asp-validation-for="Transmission" class="text-warning"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="garage-card">
+                    <h5 class="garage-title">Pricing & Usage</h5>
+                    <p class="garage-subtitle">Price and mileage</p>
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label class="form-label text-white-50">Price</label>
+                            <input asp-for="Price" type="number" step="0.01" class="form-control garage-input" />
+                            <span asp-validation-for="Price" class="text-warning"></span>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="form-label text-white-50">Mileage (km)</label>
+                            <input asp-for="Mileage" type="number" class="form-control garage-input" />
+                            <span asp-validation-for="Mileage" class="text-warning"></span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3">
+                        <button type="submit" class="btn btn-garage-primary">Save changes</button>
+                        <a asp-action="Index" class="btn btn-garage">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

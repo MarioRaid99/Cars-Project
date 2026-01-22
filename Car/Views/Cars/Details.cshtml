@@ -1,0 +1,67 @@
+﻿@model Car.ApplicationServices.Dtos.CarDto
+
+<div class="garage-hero mb-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-3">
+        <div>
+            <h1>@Model.Make @Model.Model</h1>
+            <p>Vehicle details and specifications.</p>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2 align-items-start">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-garage-primary">Edit</a>
+            <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-garage" style="border-color: rgba(251,113,133,.35);">Delete</a>
+            <a asp-action="Index" class="btn btn-garage">Back</a>
+        </div>
+    </div>
+</div>
+
+<div class="garage-surface p-4">
+    <div class="row g-3">
+        <div class="col-12 col-lg-6">
+            <div class="garage-card">
+                <h5 class="garage-title">Core</h5>
+                <p class="garage-subtitle mb-3">Main vehicle information</p>
+
+                <div class="garage-badges">
+                    <span class="garage-badge accent">@Model.Year</span>
+                    <span class="garage-badge ok">@Model.FuelType</span>
+                    <span class="garage-badge">@Model.Transmission</span>
+                </div>
+
+                <div class="garage-metric">
+                    <div class="text-white-50">Price</div>
+                    <div class="garage-price">@Model.Price.ToString("0")</div>
+                </div>
+
+                <div class="garage-metric">
+                    <div class="text-white-50">Mileage</div>
+                    <div class="garage-price">@Model.Mileage.ToString("0") km</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <div class="garage-card">
+                <h5 class="garage-title">Audit</h5>
+                <p class="garage-subtitle mb-3">Timestamps</p>
+
+                <table class="table table-sm garage-table mb-0">
+                    <tbody>
+                        <tr>
+                            <th scope="row">CreatedAt</th>
+                            <td>@Model.CreatedAt.ToString("yyyy-MM-dd HH:mm") (UTC)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ModifiedAt</th>
+                            <td>@Model.ModifiedAt.ToString("yyyy-MM-dd HH:mm") (UTC)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Id</th>
+                            <td style="word-break: break-all;">@Model.Id</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
