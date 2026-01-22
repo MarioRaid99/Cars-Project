@@ -1,23 +1,130 @@
 ﻿@model List<Car.ApplicationServices.Dtos.CarDto>
 
-<h2>Cars</h2>
+@{
+    var total = Model?.Count ?? 0;
+    var avgPrice = (total > 0) ? Model.Average(x => x.Price) : 0;
+    var newest = (total > 0) ? Model.Max(x => x.Year) : 0;
+}
 
-<p>
-    <a asp-action="Create">Create</a>
-</p>
+<div class="garage-hero mb-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-3">
+        <div>
+            <h1>Garage</h1>
+            <p>Manage your inventory with a clean dashboard, fast filters, and a modern layout.</p>
+        </div>
 
-@if (Model.Count == 0)
+        <div class="d-flex flex-wrap gap-2 align-items-start">
+            <span class="garage-pill">Total: <strong>@total</strong></span>
+            <span class="garage-pill">Avg price: <strong>@avgPrice.ToString("0")</strong></span>
+            <span class="garage-pill">Newest year: <strong>@newest</strong></span>
+            <a asp-action="Create" class="btn btn-garage-primary">+ Add Car</a>
+        </div>
+    </div>
+</div>
+
+<div class="garage-surface garage-filterbar mb-4">
+    <div class="row g-3 align-items-end">
+        <div class="col-12 col-md-5">
+            <label class="form-label text-white-50">Search</label>
+            <input id="carSearch" class="form-control garage-input" placeholder="Make, model, fuel, transmission..." />
+        </div>
+
+        <div class="col-12 col-md-3">
+            <label class="form-label text-gray-50">Fuel</label>
+            <select id="fuelFilter" class="form-select garage-select">
+                <option value="">All</option>
+                <option value="Petrol">Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Electric">Electric</option>
+            </select>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex gap-2 justify-content-md-end">
+            <a asp-action="Index" class="btn btn-garage">Reset</a>
+            <a asp-action="Create" class="btn btn-garage-primary">Create</a>
+        </div>
+    </div>
+</div>
+
+@if (total == 0)
 {
-    <p>No cars yet.</p>
+    <div class="garage-surface p-4">
+        <h4 class="mb-1">No cars yet</h4>
+        <p class="mb-0 text-white-50">Start by adding your first car to the garage.</p>
+    </div>
 }
 else
 {
-    <ul>
+    <div class="row g-3" id="carGrid">
         @foreach (var car in Model)
         {
-            <li>
-                <a asp-action="Details" asp-route-id="@car.Id">@car.Make @car.Model</a>
-            </li>
+            var searchText = $"{car.Make} {car.Model} {car.FuelType} {car.Transmission} {car.Year}".ToLowerInvariant();
+
+            <div class="col-12 col-md-6 col-lg-4 car-item"
+                 data-search="@searchText"
+                 data-fuel="@car.FuelType">
+                <div class="garage-card">
+                    <div class="d-flex justify-content-between align-items-start gap-2">
+                        <div>
+                            <h5 class="garage-title">@car.Make @car.Model</h5>
+                            <p class="garage-subtitle">@car.Year • @car.Mileage km</p>
+                        </div>
+                        <span class="garage-badge accent">@car.Year</span>
+                    </div>
+
+                    <div class="garage-badges">
+                        <span class="garage-badge ok">@car.FuelType</span>
+                        <span class="garage-badge">@car.Transmission</span>
+                        <span class="garage-badge warn">Created @car.CreatedAt.ToString("yyyy-MM-dd")</span>
+                    </div>
+
+                    <div class="garage-metric">
+                        <div class="text-white-50">Price</div>
+                        <div class="garage-price">@car.Price.ToString("0")</div>
+                    </div>
+
+                    <div class="garage-actions">
+                        <a asp-action="Details" asp-route-id="@car.Id" class="btn btn-garage w-100">View</a>
+                        <a asp-action="Edit" asp-route-id="@car.Id" class="btn btn-garage w-100">Edit</a>
+                    </div>
+
+                    <div class="mt-2">
+                        <a asp-action="Delete" asp-route-id="@car.Id"
+                           class="btn btn-garage w-100"
+                           style="border-color: rgba(251,113,133,.35);">
+                            Delete
+                        </a>
+                    </div>
+                </div>
+            </div>
         }
-    </ul>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        (function () {
+            const searchInput = document.getElementById('carSearch');
+            const fuelFilter = document.getElementById('fuelFilter');
+            const items = Array.from(document.querySelectorAll('.car-item'));
+
+            function applyFilters() {
+                const q = (searchInput.value || '').trim().toLowerCase();
+                const fuel = fuelFilter.value || '';
+
+                items.forEach(el => {
+                    const text = el.getAttribute('data-search') || '';
+                    const itemFuel = el.getAttribute('data-fuel') || '';
+                    const matchText = !q || text.includes(q);
+                    const matchFuel = !fuel || itemFuel === fuel;
+
+                    el.style.display = (matchText && matchFuel) ? '' : 'none';
+                });
+            }
+
+            if (searchInput) searchInput.addEventListener('input', applyFilters);
+            if (fuelFilter) fuelFilter.addEventListener('change', applyFilters);
+        })();
+    </script>
 }
