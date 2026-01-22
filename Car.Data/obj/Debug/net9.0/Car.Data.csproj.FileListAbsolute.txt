@@ -14,3 +14,5 @@ C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\refint\Car.Data.dll
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.pdb
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\ref\Car.Data.dll
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\bin\Debug\net9.0\Car.Data.runtimeconfig.json
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car.Data\obj\Debug\net9.0\Car.Data.genruntimeconfig.cache

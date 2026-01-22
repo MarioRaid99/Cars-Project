@@ -3,6 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8340B982-9FBF-4C79-B66F-78E34AAA9A73}|..\\Car.Data\\Car.Data.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.data\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8340B982-9FBF-4C79-B66F-78E34AAA9A73}|..\\Car.Data\\Car.Data.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.data\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8340B982-9FBF-4C79-B66F-78E34AAA9A73}|..\\Car.Data\\Car.Data.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.data\\car.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D11059B-F2A3-43A8-9DBB-3A5E860E324D}|..\\Car.Core\\Car.Core.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.core\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,6 +37,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Data\\Repositories\\CarRepository.cs",
+              "RelativeDocumentMoniker": "..\\Car.Data\\Repositories\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Data\\Repositories\\CarRepository.cs",
+              "RelativeToolTip": "..\\Car.Data\\Repositories\\CarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:07:05.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Data\\Data\\CarDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Car.Data\\Data\\CarDbContext.cs",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Data\\Data\\CarDbContext.cs",
+              "RelativeToolTip": "..\\Car.Data\\Data\\CarDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:06:34.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.Data",
+              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Data\\Car.Data.csproj",
+              "RelativeDocumentMoniker": "..\\Car.Data\\Car.Data.csproj",
+              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Data\\Car.Data.csproj*",
+              "RelativeToolTip": "..\\Car.Data\\Car.Data.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-22T16:05:26.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ICarRepository.cs",
               "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Interfaces\\ICarRepository.cs",
               "RelativeDocumentMoniker": "..\\Car.Core\\Interfaces\\ICarRepository.cs",
@@ -40,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Domain\\Car.cs",
               "RelativeDocumentMoniker": "..\\Car.Core\\Domain\\Car.cs",
@@ -53,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.Core\\Domain\\BaseEntity.cs",
               "RelativeDocumentMoniker": "..\\Car.Core\\Domain\\BaseEntity.cs",
