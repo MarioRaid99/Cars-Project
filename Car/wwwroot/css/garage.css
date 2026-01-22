@@ -1,0 +1,177 @@
+﻿:root {
+    --garage-bg: #0b1020;
+    --garage-surface: rgba(255,255,255,.06);
+    --garage-border: rgba(255,255,255,.12);
+    --garage-text: rgba(255,255,255,.92);
+    --garage-muted: rgba(255,255,255,.70);
+    --garage-accent: #7c5cff;
+    --garage-accent-2: #34d399;
+    --garage-warn: #fbbf24;
+    --garage-danger: #fb7185;
+}
+
+body {
+    background: radial-gradient(1200px 600px at 20% 0%, rgba(124,92,255,.35), transparent 60%), radial-gradient(900px 500px at 80% 10%, rgba(52,211,153,.22), transparent 55%), linear-gradient(180deg, var(--garage-bg), #070a14 70%);
+    color: var(--garage-text);
+}
+
+a, .btn-link {
+    color: rgba(255,255,255,.9);
+}
+
+    a:hover, .btn-link:hover {
+        color: white;
+    }
+
+.garage-hero {
+    border: 1px solid var(--garage-border);
+    background: linear-gradient(135deg, rgba(124,92,255,.22), rgba(255,255,255,.03));
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
+
+    .garage-hero h1 {
+        font-weight: 750;
+        letter-spacing: .2px;
+        margin: 0;
+    }
+
+    .garage-hero p {
+        margin: 8px 0 0 0;
+        color: var(--garage-muted);
+    }
+
+.garage-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--garage-border);
+    background: rgba(255,255,255,.04);
+    color: var(--garage-muted);
+    font-size: .9rem;
+}
+
+.garage-surface {
+    border: 1px solid var(--garage-border);
+    background: var(--garage-surface);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+.garage-filterbar {
+    padding: 14px;
+}
+
+.garage-input, .garage-select {
+    background: rgba(255,255,255,.05) !important;
+    border: 1px solid var(--garage-border) !important;
+    color: var(--garage-text) !important;
+    border-radius: 12px !important;
+}
+
+    .garage-input::placeholder {
+        color: rgba(255,255,255,.5) !important;
+    }
+
+.garage-card {
+    height: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--garage-border);
+    background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+    transition: transform .15s ease, border-color .15s ease;
+}
+
+    .garage-card:hover {
+        transform: translateY(-3px);
+        border-color: rgba(124,92,255,.35);
+    }
+
+.garage-title {
+    font-weight: 700;
+    margin: 0;
+}
+
+.garage-subtitle {
+    margin: 2px 0 0 0;
+    color: var(--garage-muted);
+}
+
+.garage-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.garage-badge {
+    font-size: .78rem;
+    border-radius: 999px;
+    padding: 5px 10px;
+    border: 1px solid var(--garage-border);
+    background: rgba(255,255,255,.04);
+    color: var(--garage-muted);
+}
+
+    .garage-badge.accent {
+        color: rgba(124,92,255,.95);
+        border-color: rgba(124,92,255,.35);
+    }
+
+    .garage-badge.ok {
+        color: rgba(52,211,153,.95);
+        border-color: rgba(52,211,153,.30);
+    }
+
+    .garage-badge.warn {
+        color: rgba(251,191,36,.95);
+        border-color: rgba(251,191,36,.30);
+    }
+
+.garage-metric {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed rgba(255,255,255,.14);
+}
+
+.garage-price {
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+
+.garage-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.btn-garage {
+    border-radius: 12px;
+    border: 1px solid var(--garage-border);
+    background: rgba(255,255,255,.06);
+    color: var(--garage-text);
+}
+
+    .btn-garage:hover {
+        background: rgba(255,255,255,.10);
+        color: white;
+    }
+
+.btn-garage-primary {
+    border-radius: 12px;
+    border: 1px solid rgba(124,92,255,.45);
+    background: rgba(124,92,255,.18);
+    color: white;
+}
+
+    .btn-garage-primary:hover {
+        background: rgba(124,92,255,.28);
+        color: white;
+    }

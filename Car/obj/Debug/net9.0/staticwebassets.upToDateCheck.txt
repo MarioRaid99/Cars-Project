@@ -48,6 +48,7 @@ C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\css\
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\css\garage.css
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
@@ -60,6 +61,7 @@ C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\css\
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 C:\Users\Mario\Documents\GitHub\Cars-Project\Car\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\css\garage.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
