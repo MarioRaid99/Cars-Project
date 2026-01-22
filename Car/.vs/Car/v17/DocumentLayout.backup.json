@@ -1,11 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CDEB66A9-3749-4C30-929A-3E59F2AAB576}|..\\Car.CarTest\\Car.CarTest.csproj|c:\\users\\mario\\documents\\github\\cars-project\\car.cartest\\cartests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -13,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarTests.cs",
-              "DocumentMoniker": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.CarTest\\CarTests.cs",
-              "RelativeDocumentMoniker": "..\\Car.CarTest\\CarTests.cs",
-              "ToolTip": "C:\\Users\\Mario\\Documents\\GitHub\\Cars-Project\\Car.CarTest\\CarTests.cs",
-              "RelativeToolTip": "..\\Car.CarTest\\CarTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T19:45:32.29Z",
-              "EditorCaption": ""
             }
           ]
         }
